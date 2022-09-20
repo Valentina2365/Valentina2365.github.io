@@ -24,30 +24,15 @@ var app = new Framework7({
     	name: 'productos',
   		},
 		{
-		path: '/offers/',
-    	url: 'offers.html',
-    	name: 'offers',
+		path: '/info-camisa/',
+    	url: 'info-camisa.html',
+    	name: 'info-camisa',
   		},
 		{
-		path: '/brands/',
-    	url: 'brands.html',
-    	name: 'brands',
-  		},
-		{
-		path: '/info/',
-    	url: 'info.html',
-    	name: 'info',
-  		},
-		{
-		path: '/bag/',
-    	url: 'bag.html',
-    	name: 'bag',
-  		},
-		{
-		path: '/confirm/',
-    	url: 'confirm.html',
-    	name: 'confirm',
-  		}
+			path: '/perfil/',
+			url: 'perfil.html',
+			name: 'perfil',
+			  }
 	],
 	dialog: {
 		title: 'RunGran Shop',
